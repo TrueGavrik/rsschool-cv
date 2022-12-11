@@ -1,1 +1,1 @@
-https://TrueGavrik.github.io/rsschool-cv/cvgi
+https://TrueGavrik.github.io/rsschool-cv/cv
