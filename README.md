@@ -1,1 +1,1 @@
-# rsschool-cv
+https://TrueGavrik.github.io/rsschool-cv/cvgi
