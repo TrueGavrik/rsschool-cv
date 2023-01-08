@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+//   ul li {
+//     list-style: none;
+//   }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+  
+  /*-------------------------*/
+
+
+
+body{
+    font-family: 'Montserrat';
+}
+
+html,body{
+    height: 100%;
+}
+
+.left-avatar img{
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+}
+
+.left{
+    background-color: rgba(198, 192, 13, 0.716);
+    width: 700px;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: antiquewhite;
+    padding-bottom: 100px;
+}
+
+.right{
+    background-color: rgba(217, 0, 255, 0.238);
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 40px;
+    
+
+}
+
+
+
+.name{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.job{
+    font-size: 24px;
+    color: rgb(116, 105, 105);
+    margin-bottom: 55px;
+}
+
+.contacts-text{
+    background-color: antiquewhite;
+    color: black;
+    width: 430px;
+    height: 60px;
+    font-size: 24px;
+    margin-bottom: 50px;
+    padding: 30px 0 0 5px;
+}
+
+.left-skills{
+    margin-top: 40px;
+}
+.skills-title{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.skills-item{
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 45px;
+}
+
+.left-hobbies h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.hobbies{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+
+.left-social img{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px ;
+}
+
+.year{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.about{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    padding-top: 150px;
+}
+
+.about-text{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.right-education h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    margin-top: 1640px;
+
+}
+
+main{
+    display: flex;
+    flex:1 1 auto;
+    min-height: 100%;
+}
+
+header{
+    margin: 0  500px;
+    font-size: 50px;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    }
+
+
+    .right-education-text{
+        display: flex;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    .right-education-text ul{
+        margin-left: 200px;
+        
+    }
+
+
+
+    .right-languages h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    padding-top: 20px;}
+
+    .right-languages p{
+        margin-left: 50px;
+        padding-bottom: 20px;
+    }
+
+
+
+    .projects h2{
+        font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
+    }
+
+    .projects a{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .right-code h2{
+        font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
+    }
+
+    .right-code p{
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 25px;
+    }
